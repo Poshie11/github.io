@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seviano's Lodge</title>
+    <style>
+        body {
+            background-image: url('fifa.jpg'); /* Path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            color: white; /* Adjust text color for better readability */
+        }
+        p {
+            background-color: green;
+            font-family: Broadway;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 0px;
+        }
+        h1 {
+            font-family: Broadway;
+            font-size: 30px;
+            margin-left: 400px;
+            color: blue;
+        }
+        h2 {
+            font-family: 'Bernard MT Condensed';
+            font-size: 25px;
+            text-align: left;
+            color: blue;
+        }
+        label, input {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            color: white; /* Adjust text color for better readability */
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="scroll" direction="left" scrollamount="5">Welcome To Seviano's Lodge@</marquee>
+    <p>Welcome To Seviano's Lodge@</p>
+    <h1>Enjoy Our Services And Feel Safe:@</h1>
+    <h2>Lodge Reservation Form:</h2>
+    <form>
+        <label for="firstName">First Name</label><br>
+        <input type="text" id="firstName" required><br><br>
+        <label for="middleName">Middle Name</label><br>
+        <input type="text" id="middleName" required><br><br>
+        <label for="lastName">Last Name</label><br>
+        <input type="text" id="lastName" required><br><br>
+        <label for="gender">Gender</label><br><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="daysToStay">Number Of Days To Stay</label><br>
+        <input type="number" id="daysToStay" min="1" max="30" required><br><br>
+        <label for="phoneNumber">Phone Number</label><br>
+        <input type="tel" id="phoneNumber"><br><br>
+        <label for="emailAddress">Email Address</label><br>
+        <input type="email" id="emailAddress" required><br><br>
+        <label for="roomNumber">Room Number</label><br>
+        <input type="number" id="roomNumber" min="1" max="28" required><br><br>
+        <label for="daysToStay">Days To Stay</label><br>
+        <input type="number" id="daysToStay" min="1" max="30" required>
+    </form>
+</body>
+</html>
